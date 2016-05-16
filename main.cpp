@@ -7,14 +7,13 @@ int main()
 
 
     int m, n;
-//    cout << "Enter number of rows: " ;
-//    cin >> m;
-//    cout << endl;
-//    cout << "Enter number of columns: " ;
-//    cin >>n;
-//    cout << endl;
-    m=5;
-    n=6;
+    cout << "Enter number of rows: " ;
+    cin >> m;
+    cout << endl;
+    cout << "Enter number of columns: " ;
+    cin >>n;
+    cout << endl;
+
     int a[m][n], b[n][m];
     for (int i=0; i<m; i++)
     {
